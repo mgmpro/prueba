@@ -1,0 +1,44 @@
+{% extends "SistemaEjerciciosApp/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+   <!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'SistemaEjerciciosApp/img/principal.jpg' %}" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-upper">Prevención</span>
+            <span class="section-heading-lower">Ejercita tu cerebro</span>
+          </h2>
+          <p class="mb-3">Realizar ejercicios mentales de forma periódica retarda el deterioro cognitivo.
+          </p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Ayuda a tu mente</span>
+                <span class="section-heading-lower">Ejercitala</span>
+              </h2>
+              <p class="mb-0">“Úselo o piérdalo, comúnmente se refiere a la importancia de ejercitar su cuerpo y mantenerse en forma. Ejercitar su cerebro es igual de importante. Su cerebro necesita un entrenamiento regular, especialmente a medida que envejece."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% endblock %}
